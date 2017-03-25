@@ -1,0 +1,10 @@
+source 'http://gems.ruby-china.org'
+
+gem 'sinatra'
+gem 'json'
+
+group :test do
+  gem 'cucumber'
+  gem 'rspec'
+  gem 'rack-test'
+end
